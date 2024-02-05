@@ -1,0 +1,69 @@
+*{
+	font-family: 'Itim', cursive;
+}
+
+.carousel-item{
+	height: 500px;
+}
+
+.carousel-image-1{
+	background-image: url("images/doc1.png");
+	background-size: cover;
+}
+.carousel-image-2{
+	background-image: url("images/doc2.png");
+	background-size: cover;
+}
+.carousel-image-3{
+	background-image: url("images/doc3.png");
+	background-size: cover;
+}
+
+#about{
+	min-height: 200px;
+	position: relative;
+	background-image: url("images/BG111.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #FFFFFF;
+	background-attachment: fixed;
+}
+
+.dark-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.70);
+	width: 100%;
+	height: 100%;
+}
+
+.showcase-img{
+	background-size: cover;
+	min-height: 30rem;
+}
+
+.showcase-text {
+	padding: 8rem;
+}
+
+.testimonials{
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+.testimonials .testimoniials-item img{
+	max-width: 12rem;
+	box-shadow: 0 5px 5px #adb5bd;
+}
+
+@media screen and (max-width){
+		.showcase-text {
+		padding: 4rem;
+	}
+		.showcase-img{
+		background-size: cover;
+		min-height: 15rem;
+	}
+}
